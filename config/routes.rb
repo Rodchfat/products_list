@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
-  get 'products/index'
+  # get 'products', to: "products#index"
 
-  get 'products/new'
+  # get 'products/new'
 
-  get 'products/show'
+  # get 'products/show'
   
-  post 'products/create'
-  get 'products/create'
+  # put 'products/create'
+  #get 'products/create'
+  resources :products
 
   root 'pages#home'
 
