@@ -1,0 +1,13 @@
+<%= form_for "product#create" do |f| %>
+<div class= "field">
+<%= f.label :name %>
+<%= f.text_field :name %>
+</div></br>
+<div class= "field">
+<%= f.label :category %>
+<%= f.text_field :category %>
+</div></br>
+<div class ="action">
+    <%= f.submit "Create Product" %>
+</div>
+<% end %>

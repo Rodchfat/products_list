@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get 'products/new'
 
   get 'products/show'
+  
+  post 'products/create'
+  get 'products/create'
 
   root 'pages#home'
 
